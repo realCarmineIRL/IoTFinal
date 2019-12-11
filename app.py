@@ -7,8 +7,8 @@ from grovepi import *
 # SIG,NC,VCC,GND
 
 PORT = 4
-BOT_ID = 'BOT ID FROM TELEGRAM'
-CHAT_ID = 'CHAT ID FROM TELEGRAM'
+BOT_ID = '827686452:AAG5aeN-I1GdBWDOAggMTZS65iJJthm0pNU'
+CHAT_ID = '-1001251595992'
 MSG = 'Sensor has been triggered'
 URL = f'https://api.telegram.org/bot{BOT_ID}/sendMessage?chat_id={CHAT_ID}&text={MSG}'
 
